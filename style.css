@@ -1,3 +1,84 @@
 #demo{
     color: red;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#sect1{
+    background: linear-gradient(180deg, #1531cc 30%, #ebe0d3 100%);
+    height: 100vh;
+    width: 100%;
+}
+
+.text1{
+color: white;
+font-family: 'Permanent Marker', cursive;
+font-size: 25px;
+}
+
+#sect2{
+    background-color:#ebe0d3;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.object{
+    border: solid 2px;
+    min-height: 50vh;
+    box-shadow: 5px 5px 10px black;
+}
+
+.text2{
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 25px;
+    }
+
+#sect3{
+    background-color:#ebe0d3;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.video{
+    background-color:#1531cc;
+    min-height: 40%;
+    width: 70%;
+}
+
+#sect4{
+    background-color:#ebe0d3;
+    height: 100vh;
+    width: 100%;
+
+}
+
+.ex4{
+    border: solid 2px;
+    min-height: 50vh;
+    width: 80%;
+    box-shadow: 5px 5px 10px black;
+}
+
+.yeah{
+    opacity: 0
+}
+
+.portefol{
+
+}
+
+.affiche{
+    
+}
