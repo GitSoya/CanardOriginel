@@ -235,6 +235,7 @@ gsap.to(".titretxt1, .titretxt2",{
         trigger:"#sect5",
         start:"top 60%",
         end: "bottom 100%",
+        markers:true,
         toggleActions: "play none none none",
         scrub: 1,
     },
@@ -254,15 +255,71 @@ gsap.to(".titretxt1, .titretxt2",{
     filter: "blur(12px)",
 });
 
-//GSAP Scrolltrigger x
+//GSAP Scrolltrigger timeline 1
 
-gsap.to(".sonic",{
+gsap.to(".sonic1",{
     scrollTrigger:{
         trigger:"#sect6",
         start:"top 20%",
         toggleActions: "play none none none",
         scrub: 1,
     },
-        x: "-100000px",
+        x: "-100px",
+        y: "1300px",
+        rotation: "360",
+});
+
+//GSAP Scrolltrigger timeline 2
+
+gsap.to(".sonic2",{
+    scrollTrigger:{
+        trigger:"#sect6",
+        start:"top 20%",
+        toggleActions: "play none none none",
+        scrub: 1,
+    },
+        x: "400px",
+        y: "1800px",
+        rotation: "-360",
+});
+
+//GSAP Scrolltrigger timeline 3
+
+gsap.to(".sonic3",{
+    scrollTrigger:{
+        trigger:"#sect6",
+        start:"top 20%",
+        toggleActions: "play none none none",
+        scrub: 1,
+    },
+        x: "-100px",
+        y: "1400px",
+        rotation: "-360",
+});
+
+//GSAP Scrolltrigger timeline 4
+
+gsap.to(".sonic4",{
+    scrollTrigger:{
+        trigger:"#sect6",
+        start:"top 20%",
+        toggleActions: "play none none none",
+        scrub: 1,
+    },
+        x: "200px",
+        y: "1600px",
+        rotation: "-360",
+});
+
+gsap.to(".sonic5",{
+    scrollTrigger:{
+        trigger:"#sect6",
+        start:"top 20%",
+        toggleActions: "play none none none",
+        scrub: 1,
+    },
+        x: "-1100px",
+        y: "1800px",
+        rotation: "360",
 });
 

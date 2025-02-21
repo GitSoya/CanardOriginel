@@ -167,7 +167,6 @@ top: 90px;
 }
 
 .test1{
-    border: solid 2px white;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -176,7 +175,6 @@ top: 90px;
 }
 
 .test2{
-    border: solid 2px white;
     height: 30%;
     width: 100%;
     display: flex;
@@ -399,13 +397,6 @@ top: 90px;
 }
 
 #sect6{
-    background-color:white;
-    height: 100vh;
-    width: 100%;
-
-}
-
-#sect6{
     min-height: 250vh;
     width: 100%;
     background-image: url(assets/src/XVM60ccba6e-1b3f-11e9-b98a-b2c17120ca33.webp);
@@ -415,16 +406,25 @@ top: 90px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between
 }
 
-.sonic{
-    height: 100%;
+.div6{
+    height: 10%;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sonic1, .sonic2, .sonic3, .sonic4, .sonic5{
+    height: 75px;
     width: 5vw;
     background-image: url(assets/src/starlight.webp);
     background-size: contain;
     background-repeat: no-repeat;
 }
+
+
 
 .outro{
     height: 10vh;
@@ -432,7 +432,6 @@ top: 90px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: solid 2px white;
 
 }
 
