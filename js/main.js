@@ -1,6 +1,3 @@
-console.log("Target confirmed")
-
-
 // GSAP Modules
 gsap.registerPlugin(ScrollTrigger,Observer,ScrollToPlugin,Draggable,MotionPathPlugin);
 
@@ -12,12 +9,9 @@ mm.add({
     isMobile: '(max-width: 799px)', 
     isDesktop: '(min-width: 800px)',
 }, (context) => {
-    let {isMobile, isDesktop} = context.conditions; 
-}
-)
+    let {isMobile, isDesktop} = context.conditions;
 
-
-// GSAP DEMO ANIMATION
+    // GSAP from to titre
 gsap.fromTo("#demo",{
     y:'100px',
 },{
@@ -25,9 +19,7 @@ gsap.fromTo("#demo",{
     duration : 2,
 })
 
-
-
-//GSAP ANIMATION TIMELINE
+//GSAP ANIMATION TIMELINE 
 let timelineimgtxt1 = gsap.timeline();
 
 timelineimgtxt1.to('.imgtxt1',{x:0,})
@@ -38,7 +30,7 @@ timelineimgtxt1.to('.imgtxt1',{x:0,})
     opacity:1,
 })
 
-// GSAP ScrollTrigger ANIMATION
+// GSAP ScrollTrigger, ROTATION
 
 gsap.to(".object",{
     scrollTrigger:{
@@ -311,6 +303,8 @@ gsap.to(".sonic4",{
         rotation: "-360",
 });
 
+//GSAP Scrolltrigger timeline 5
+
 gsap.to(".sonic5",{
     scrollTrigger:{
         trigger:"#sect6",
@@ -321,5 +315,10 @@ gsap.to(".sonic5",{
         x: "-1100px",
         y: "1800px",
         rotation: "360",
-});
+}); 
+}
+)
+
+
+
 

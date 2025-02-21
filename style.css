@@ -1,7 +1,4 @@
-#demo{
-    color: red;
-}
-
+/*Personnalisation générale*/
 * {
     margin: 0;
     padding: 0;
@@ -11,6 +8,14 @@ body {
     font-family: "Garamond";
     color: white;
 }
+
+
+/*Section 1*/
+
+#demo{
+    color: red;
+}
+
 
 .coin{
     min-height: 5vh;
@@ -30,6 +35,7 @@ body {
     gap: 75px;
 }
 
+
 #sect1::after {
     content: "";
     position: absolute;
@@ -37,7 +43,7 @@ body {
     width: 100%;
     height: 95px;
     background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, black 100%);
-}
+} /*Ombres intersection*/
 
 
 .text1{
@@ -85,6 +91,7 @@ opacity: 0
     opacity: 0;
 }
 
+/*Section 2*/
 
 #sect2{
     background-color:black;
@@ -95,6 +102,7 @@ opacity: 0
     align-items: center;
     justify-content: center;
 }
+
 
 
 .object{
@@ -121,7 +129,7 @@ opacity: 0
     font-family: 'Permanent Marker';
 }
 
-
+/*SECTION 3*/
 
 #sect3{
     height: 100vh;
@@ -165,6 +173,8 @@ top: 90px;
     border-radius: 10px;
     
 }
+
+
 
 .test1{
     display: flex;
@@ -213,6 +223,7 @@ top: 90px;
     justify-content: center;
 }
 
+/*SECTION 4*/
 
 #sect4{
     min-height: 100vh;
@@ -271,6 +282,8 @@ top: 90px;
     background-size: cover;
     background-position: center;
 }
+
+/*SECTION 5*/
 
 #sect5{
     min-height: 100vh;
@@ -395,6 +408,8 @@ top: 90px;
     filter: blur(0px);
     
 }
+
+/*SECTION 6*/
 
 #sect6{
     min-height: 250vh;
